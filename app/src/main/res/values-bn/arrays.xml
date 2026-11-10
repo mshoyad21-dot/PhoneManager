@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="autolock_labels">
+        <item>সাথে সাথে</item>
+        <item>১৫ সেকেন্ড পরে</item>
+        <item>১ মিনিট পরে</item>
+        <item>৫ মিনিট পরে</item>
+    </string-array>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone Manager</string>
+
+    <string name="pad_ok">OK</string>
+    <string name="pad_delete">Delete</string>
+
+    <string name="setup_title">Create your PIN</string>
+    <string name="setup_enter">Choose a PIN (4–8 digits)</string>
+    <string name="setup_confirm">Re-enter your PIN to confirm</string>
+    <string name="setup_mismatch">PINs did not match. Start again.</string>
+    <string name="setup_short">PIN must be at least 4 digits</string>
+    <string name="setup_done">PIN saved</string>
+
+    <string name="lock_enter">Enter PIN to unlock</string>
+    <string name="lock_wrong">Wrong PIN</string>
+    <string name="lock_lockout">Too many attempts. Try again in %1$d s</string>
+    <string name="lock_biometric">Use fingerprint or face</string>
+    <string name="biometric_title">Unlock</string>
+    <string name="biometric_subtitle">Confirm your identity</string>
+    <string name="biometric_cancel">Use PIN</string>
+
+    <string name="main_protection">App protection</string>
+    <string name="main_protection_hint">Locked apps ask for your PIN when opened</string>
+
+    <string name="perm_usage_title">Allow usage access</string>
+    <string name="perm_usage_desc">Phone Manager needs this to know when a locked app is opened.</string>
+    <string name="perm_overlay_title">Allow display over other apps</string>
+    <string name="perm_overlay_desc">Needed to show the lock screen on top of locked apps.</string>
+    <string name="perm_camera_title">Allow camera</string>
+    <string name="perm_camera_desc">Needed to take an intruder selfie after wrong PIN attempts.</string>
+    <string name="perm_notif_title">Allow notifications</string>
+    <string name="perm_notif_desc">Shows that protection is running.</string>
+    <string name="perm_grant">Grant</string>
+
+    <string name="menu_vault">Hidden apps</string>
+    <string name="menu_intruders">Intruder log</string>
+    <string name="menu_settings">Lock settings</string>
+
+    <string name="vault_title">Hidden apps</string>
+    <string name="vault_empty">No hidden apps yet. Open App Lock and tap the eye icon next to an app.</string>
+    <string name="vault_note">Hidden apps are removed from the main list and always ask for your PIN. They may still appear in your phone\'s own launcher.</string>
+    <string name="cd_hide">Hide app</string>
+    <string name="cd_unhide">Unhide app</string>
+    <string name="open_failed">Cannot open this app</string>
+
+    <string name="intruders_title">Intruder log</string>
+    <string name="intruders_empty">No intruders caught yet.</string>
+    <string name="intruders_clear">Clear all</string>
+    <string name="intruder_attempt">Wrong PIN on %1$s</string>
+
+    <string name="settings_title">Lock settings</string>
+    <string name="settings_random">Random keypad</string>
+    <string name="settings_random_desc">Shuffle digits to stop shoulder surfing</string>
+    <string name="settings_biometric">Fingerprint / face unlock</string>
+    <string name="settings_intruder">Intruder selfie</string>
+    <string name="settings_intruder_desc">Takes a photo after 2 wrong PINs</string>
+    <string name="settings_autolock">Auto-lock delay</string>
+    <string name="settings_change_pin">Change PIN</string>
+    <string name="settings_view_intruders">View intruder log</string>
+
+    <string name="notif_channel">Protection service</string>
+    <string name="notif_title">App protection is on</string>
+    <string name="notif_text">Your locked apps are protected</string>
+
+    <string name="setup_step1">Step 1 of 2</string>
+    <string name="setup_step2">Step 2 of 2</string>
+
+    <string name="status_on">Protection is on</string>
+    <string name="status_off">Protection is off</string>
+    <string name="status_setup">Setup needed</string>
+    <string name="status_locked_count">%1$d apps locked</string>
+    <string name="status_turn_on">Turn on to lock your apps</string>
+    <string name="status_grant">Grant the permissions below to start protection</string>
+    <string name="setup_card_title">Finish setup (%1$d/%2$d done)</string>
+    <string name="step_optional">" · Optional"</string>
+    <string name="search_hint">Search apps</string>
+    <string name="chip_all">All</string>
+    <string name="chip_locked">Locked</string>
+    <string name="list_empty">No apps found</string>
+    <string name="onboarding_title">PIN saved</string>
+    <string name="onboarding_body">Next steps:\n\n1. Grant the permissions under \"Finish setup\".\n2. Turn on the switch next to every app you want to lock.\n3. Tap the eye icon to move an app to Hidden apps (menu ⋮ > Hidden apps).</string>
+    <string name="onboarding_ok">Got it</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_utilities">Utilities</string>
+    <string name="score_label">Health score</string>
+    <string name="status_checking">Checking your phone…</string>
+    <string name="status_good">Your phone is in good condition</string>
+    <string name="status_fair">Your phone could be better. Tap Optimize.</string>
+    <string name="status_poor">Your phone needs attention</string>
+    <string name="optimize">Optimize</string>
+    <string name="optimizing">Optimizing…</string>
+    <string name="optimize_done">Optimized</string>
+    <string name="optimize_result">Freed about %1$s of memory and %2$s of cache.\nBackground apps asked to stop: %3$d.\n\nAndroid decides what actually stops, so results vary.</string>
+    <string name="ok">OK</string>
+    <string name="not_available">Not available on this phone</string>
+    <string name="card_storage">Storage</string>
+    <string name="card_memory">Memory</string>
+    <string name="card_risk">App risks</string>
+    <string name="card_apps">App manager</string>
+    <string name="card_battery">Battery</string>
+    <string name="card_data">Data usage</string>
+    <string name="card_speed">Speed test</string>
+    <string name="card_lock">App Lock</string>
+    <string name="card_apps_sub">App sizes and info</string>
+    <string name="card_data_sub">Mobile data and Wi-Fi</string>
+    <string name="card_speed_sub">Check download speed</string>
+    <string name="card_lock_sub">PIN, hide apps, intruder selfie</string>
+    <string name="storage_used_of">%1$s of %2$s used</string>
+    <string name="memory_used_of">%1$s of %2$s used</string>
+    <string name="risk_none">No risky apps</string>
+    <string name="risk_count">%1$d apps to review</string>
+    <string name="battery_pct">%1$d%%</string>
+    <string name="battery_charging_pct">%1$d%% · charging</string>
+    <string name="section_cleanup">Cleanup &amp; boost</string>
+    <string name="section_privacy">Privacy</string>
+    <string name="section_security">Security</string>
+    <string name="section_tools">Tools</string>
+    <string name="tool_boost">System boost</string>
+    <string name="tool_storage">Storage cleanup</string>
+    <string name="tool_app_manager">App manager</string>
+    <string name="tool_app_lock">App Lock</string>
+    <string name="tool_hide_apps">Hide apps</string>
+    <string name="tool_intruders">Intruder log</string>
+    <string name="tool_risk">Risk check</string>
+    <string name="tool_permissions">App permissions</string>
+    <string name="tool_battery">Battery</string>
+    <string name="tool_speed">Network speed test</string>
+    <string name="tool_data">Data usage</string>
+    <string name="lock_title">App Lock</string>
+    <string name="risk_sms">Can read or send SMS</string>
+    <string name="risk_calllog">Can read call history</string>
+    <string name="risk_accessibility">Has accessibility access</string>
+    <string name="risk_admin">Is a device administrator</string>
+    <string name="risk_unknown_source">Not installed from an app store</string>
+    <string name="risk_note">This is a permission review, not a virus scan. Listed apps may be perfectly safe; tap one to check its settings.</string>
+    <string name="risk_none_found">No apps need review</string>
+    <string name="apps_need_usage">Allow usage access to see how much space each app uses.</string>
+    <string name="sort_size">Size</string>
+    <string name="sort_name">Name</string>
+    <string name="battery_saver">Battery saver settings</string>
+    <string name="battery_usage">Battery usage</string>
+    <string name="batt_status">Status</string>
+    <string name="batt_health">Health</string>
+    <string name="batt_temp">Temperature</string>
+    <string name="batt_voltage">Voltage</string>
+    <string name="batt_tech">Technology</string>
+    <string name="batt_unknown">Unknown</string>
+    <string name="batt_status_charging">Charging</string>
+    <string name="batt_status_discharging">Discharging</string>
+    <string name="batt_status_full">Full</string>
+    <string name="batt_status_not_charging">Not charging</string>
+    <string name="batt_health_good">Good</string>
+    <string name="batt_health_overheat">Overheating</string>
+    <string name="batt_health_dead">Dead</string>
+    <string name="batt_health_over_voltage">Over voltage</string>
+    <string name="batt_health_cold">Cold</string>
+    <string name="batt_health_failure">Failure</string>
+    <string name="storage_largest">Largest apps</string>
+    <string name="storage_clear_cache">Clear this app\'s cache</string>
+    <string name="storage_system">System storage settings</string>
+    <string name="storage_row_used">Used</string>
+    <string name="storage_row_free">Free</string>
+    <string name="storage_row_total">Total</string>
+    <string name="storage_cache_cleared">Cleared %1$s</string>
+    <string name="speed_unit">Mbps (download)</string>
+    <string name="speed_idle">Tap Start to test your download speed</string>
+    <string name="speed_start">Start</string>
+    <string name="speed_stop">Stop</string>
+    <string name="speed_running">Testing… (uses data)</string>
+    <string name="speed_response">Response time: %1$d ms</string>
+    <string name="speed_done">Test finished</string>
+    <string name="speed_error">Could not reach the test server. Check your internet connection.</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PhoneManager" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/pm_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">#BFF1EA</item>
+        <item name="colorOnPrimaryContainer">#00201D</item>
+        <item name="colorSecondary">@color/amber</item>
+        <item name="colorOnSecondary">#2B1D00</item>
+        <item name="colorSecondaryContainer">#FFE7A8</item>
+        <item name="colorOnSecondaryContainer">#2B1D00</item>
+        <item name="android:colorBackground">#F4F8F7</item>
+        <item name="colorSurface">#F4F8F7</item>
+        <item name="colorSurfaceVariant">#DBE5E2</item>
+        <item name="colorSurfaceContainer">#E9F0EE</item>
+        <item name="colorSurfaceContainerHigh">#E3EBE9</item>
+        <item name="colorSurfaceContainerHighest">#DDE5E3</item>
+        <item name="colorOutline">#6F7977</item>
+    </style>
+</resources>

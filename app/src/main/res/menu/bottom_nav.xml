@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_shield_check"
+        android:title="@string/nav_home" />
+    <item
+        android:id="@+id/nav_utilities"
+        android:icon="@drawable/ic_apps"
+        android:title="@string/nav_utilities" />
+</menu>

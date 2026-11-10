@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ফোন ম্যানেজার</string>
+
+    <string name="pad_ok">ঠিক আছে</string>
+    <string name="pad_delete">মুছুন</string>
+
+    <string name="setup_title">আপনার পিন তৈরি করুন</string>
+    <string name="setup_enter">একটি পিন দিন (৪–৮ সংখ্যা)</string>
+    <string name="setup_confirm">নিশ্চিত করতে পিনটি আবার দিন</string>
+    <string name="setup_mismatch">পিন মেলেনি। আবার শুরু করুন।</string>
+    <string name="setup_short">পিন কমপক্ষে ৪ সংখ্যার হতে হবে</string>
+    <string name="setup_done">পিন সংরক্ষিত হয়েছে</string>
+
+    <string name="lock_enter">আনলক করতে পিন দিন</string>
+    <string name="lock_wrong">ভুল পিন</string>
+    <string name="lock_lockout">অনেকবার ভুল হয়েছে। %1$d সেকেন্ড পরে চেষ্টা করুন</string>
+    <string name="lock_biometric">ফিঙ্গারপ্রিন্ট বা ফেস ব্যবহার করুন</string>
+    <string name="biometric_title">আনলক</string>
+    <string name="biometric_subtitle">নিজেকে নিশ্চিত করুন</string>
+    <string name="biometric_cancel">পিন ব্যবহার করুন</string>
+
+    <string name="main_protection">অ্যাপ সুরক্ষা</string>
+    <string name="main_protection_hint">লক করা অ্যাপ খুললে পিন চাইবে</string>
+
+    <string name="perm_usage_title">ইউসেজ অ্যাক্সেস চালু করুন</string>
+    <string name="perm_usage_desc">লক করা অ্যাপ কখন খোলা হয় তা বুঝতে এটি দরকার।</string>
+    <string name="perm_overlay_title">অন্য অ্যাপের উপরে দেখানোর অনুমতি দিন</string>
+    <string name="perm_overlay_desc">লক করা অ্যাপের উপরে লক স্ক্রিন দেখানোর জন্য দরকার।</string>
+    <string name="perm_camera_title">ক্যামেরার অনুমতি দিন</string>
+    <string name="perm_camera_desc">ভুল পিন দিলে অনুপ্রবেশকারীর সেলফি তোলার জন্য দরকার।</string>
+    <string name="perm_notif_title">নোটিফিকেশনের অনুমতি দিন</string>
+    <string name="perm_notif_desc">সুরক্ষা চালু আছে তা দেখানোর জন্য।</string>
+    <string name="perm_grant">অনুমতি দিন</string>
+
+    <string name="menu_vault">লুকানো অ্যাপ</string>
+    <string name="menu_intruders">অনুপ্রবেশকারী লগ</string>
+    <string name="menu_settings">লক সেটিংস</string>
+
+    <string name="vault_title">লুকানো অ্যাপ</string>
+    <string name="vault_empty">এখনও কোনো অ্যাপ লুকানো নেই। অ্যাপ লক খুলে কোনো অ্যাপের পাশের চোখের আইকনে ট্যাপ করুন।</string>
+    <string name="vault_note">লুকানো অ্যাপ প্রধান তালিকা থেকে সরে যায় এবং সবসময় পিন চায়। তবে ফোনের নিজস্ব লঞ্চারে অ্যাপটি দেখা যেতে পারে।</string>
+    <string name="cd_hide">অ্যাপ লুকান</string>
+    <string name="cd_unhide">অ্যাপ দেখান</string>
+    <string name="open_failed">অ্যাপটি খোলা যাচ্ছে না</string>
+
+    <string name="intruders_title">অনুপ্রবেশকারী লগ</string>
+    <string name="intruders_empty">এখনও কেউ ধরা পড়েনি।</string>
+    <string name="intruders_clear">সব মুছুন</string>
+    <string name="intruder_attempt">%1$s-এ ভুল পিন</string>
+
+    <string name="settings_title">লক সেটিংস</string>
+    <string name="settings_random">র‍্যান্ডম কীপ্যাড</string>
+    <string name="settings_random_desc">কাঁধের উপর দিয়ে দেখা ঠেকাতে সংখ্যা এলোমেলো করুন</string>
+    <string name="settings_biometric">ফিঙ্গারপ্রিন্ট / ফেস আনলক</string>
+    <string name="settings_intruder">ইনট্রুডার সেলফি</string>
+    <string name="settings_intruder_desc">২ বার ভুল পিনের পর ছবি তোলে</string>
+    <string name="settings_autolock">অটো-লক বিলম্ব</string>
+    <string name="settings_change_pin">পিন পরিবর্তন</string>
+    <string name="settings_view_intruders">অনুপ্রবেশকারী লগ দেখুন</string>
+
+    <string name="notif_channel">সুরক্ষা সার্ভিস</string>
+    <string name="notif_title">অ্যাপ সুরক্ষা চালু আছে</string>
+    <string name="notif_text">আপনার লক করা অ্যাপগুলো সুরক্ষিত</string>
+
+    <string name="setup_step1">ধাপ ১ / ২</string>
+    <string name="setup_step2">ধাপ ২ / ২</string>
+
+    <string name="status_on">সুরক্ষা চালু আছে</string>
+    <string name="status_off">সুরক্ষা বন্ধ আছে</string>
+    <string name="status_setup">সেটআপ বাকি</string>
+    <string name="status_locked_count">%1$dটি অ্যাপ লক করা আছে</string>
+    <string name="status_turn_on">অ্যাপ লক করতে চালু করুন</string>
+    <string name="status_grant">সুরক্ষা শুরু করতে নিচের অনুমতিগুলো দিন</string>
+    <string name="setup_card_title">সেটআপ শেষ করুন (%1$d/%2$d সম্পন্ন)</string>
+    <string name="step_optional">" · ঐচ্ছিক"</string>
+    <string name="search_hint">অ্যাপ খুঁজুন</string>
+    <string name="chip_all">সব</string>
+    <string name="chip_locked">লক করা</string>
+    <string name="list_empty">কোনো অ্যাপ পাওয়া যায়নি</string>
+    <string name="onboarding_title">পিন সংরক্ষিত হয়েছে</string>
+    <string name="onboarding_body">এরপর যা করবেন:\n\n১. \"সেটআপ শেষ করুন\" অংশের অনুমতিগুলো দিন।\n২. যে অ্যাপগুলো লক করতে চান তার পাশের সুইচ চালু করুন।\n৩. চোখের আইকনে ট্যাপ করে অ্যাপ লুকানো অ্যাপে সরান (মেনু ⋮ > লুকানো অ্যাপ)।</string>
+    <string name="onboarding_ok">বুঝেছি</string>
+
+    <string name="nav_home">হোম</string>
+    <string name="nav_utilities">ইউটিলিটিজ</string>
+    <string name="score_label">হেলথ স্কোর</string>
+    <string name="status_checking">আপনার ফোন পরীক্ষা করা হচ্ছে…</string>
+    <string name="status_good">আপনার ফোন ভালো অবস্থায় আছে</string>
+    <string name="status_fair">ফোনটি আরও ভালো হতে পারে। অপ্টিমাইজ চাপুন।</string>
+    <string name="status_poor">আপনার ফোনের দিকে নজর দরকার</string>
+    <string name="optimize">অপ্টিমাইজ</string>
+    <string name="optimizing">অপ্টিমাইজ হচ্ছে…</string>
+    <string name="optimize_done">অপ্টিমাইজ সম্পন্ন</string>
+    <string name="optimize_result">প্রায় %1$s মেমোরি ও %2$s ক্যাশ খালি হয়েছে।\nব্যাকগ্রাউন্ড অ্যাপ বন্ধ করতে বলা হয়েছে: %3$dটি।\n\nকোন অ্যাপ আসলে বন্ধ হবে তা অ্যান্ড্রয়েড ঠিক করে, তাই ফলাফল কমবেশি হতে পারে।</string>
+    <string name="ok">ঠিক আছে</string>
+    <string name="not_available">এই ফোনে পাওয়া যায় না</string>
+    <string name="card_storage">স্টোরেজ</string>
+    <string name="card_memory">মেমোরি</string>
+    <string name="card_risk">অ্যাপ ঝুঁকি</string>
+    <string name="card_apps">অ্যাপ ম্যানেজার</string>
+    <string name="card_battery">ব্যাটারি</string>
+    <string name="card_data">ডেটা ব্যবহার</string>
+    <string name="card_speed">স্পিড টেস্ট</string>
+    <string name="card_lock">অ্যাপ লক</string>
+    <string name="card_apps_sub">অ্যাপের সাইজ ও তথ্য</string>
+    <string name="card_data_sub">মোবাইল ডেটা ও ওয়াই-ফাই</string>
+    <string name="card_speed_sub">ডাউনলোড স্পিড দেখুন</string>
+    <string name="card_lock_sub">পিন, অ্যাপ লুকানো, ইনট্রুডার সেলফি</string>
+    <string name="storage_used_of">%2$s-এর মধ্যে %1$s ব্যবহৃত</string>
+    <string name="memory_used_of">%2$s-এর মধ্যে %1$s ব্যবহৃত</string>
+    <string name="risk_none">কোনো ঝুঁকিপূর্ণ অ্যাপ নেই</string>
+    <string name="risk_count">%1$dটি অ্যাপ দেখা দরকার</string>
+    <string name="battery_pct">%1$d%%</string>
+    <string name="battery_charging_pct">%1$d%% · চার্জ হচ্ছে</string>
+    <string name="section_cleanup">ক্লিনআপ ও বুস্ট</string>
+    <string name="section_privacy">প্রাইভেসি</string>
+    <string name="section_security">নিরাপত্তা</string>
+    <string name="section_tools">টুলস</string>
+    <string name="tool_boost">সিস্টেম বুস্ট</string>
+    <string name="tool_storage">স্টোরেজ ক্লিনআপ</string>
+    <string name="tool_app_manager">অ্যাপ ম্যানেজার</string>
+    <string name="tool_app_lock">অ্যাপ লক</string>
+    <string name="tool_hide_apps">অ্যাপ লুকান</string>
+    <string name="tool_intruders">অনুপ্রবেশকারী লগ</string>
+    <string name="tool_risk">ঝুঁকি পরীক্ষা</string>
+    <string name="tool_permissions">অ্যাপ পারমিশন</string>
+    <string name="tool_battery">ব্যাটারি</string>
+    <string name="tool_speed">নেটওয়ার্ক স্পিড টেস্ট</string>
+    <string name="tool_data">ডেটা ব্যবহার</string>
+    <string name="lock_title">অ্যাপ লক</string>
+    <string name="risk_sms">এসএমএস পড়তে বা পাঠাতে পারে</string>
+    <string name="risk_calllog">কল হিস্ট্রি পড়তে পারে</string>
+    <string name="risk_accessibility">অ্যাক্সেসিবিলিটি অ্যাক্সেস আছে</string>
+    <string name="risk_admin">ডিভাইস অ্যাডমিনিস্ট্রেটর</string>
+    <string name="risk_unknown_source">কোনো অ্যাপ স্টোর থেকে ইনস্টল করা নয়</string>
+    <string name="risk_note">এটি পারমিশন পর্যালোচনা, ভাইরাস স্ক্যান নয়। তালিকার অ্যাপগুলো নিরাপদও হতে পারে; সেটিংস দেখতে অ্যাপে ট্যাপ করুন।</string>
+    <string name="risk_none_found">কোনো অ্যাপ দেখার দরকার নেই</string>
+    <string name="apps_need_usage">প্রতিটি অ্যাপ কত জায়গা নিচ্ছে দেখতে ইউসেজ অ্যাক্সেস দিন।</string>
+    <string name="sort_size">সাইজ</string>
+    <string name="sort_name">নাম</string>
+    <string name="battery_saver">ব্যাটারি সেভার সেটিংস</string>
+    <string name="battery_usage">ব্যাটারি ব্যবহার</string>
+    <string name="batt_status">অবস্থা</string>
+    <string name="batt_health">স্বাস্থ্য</string>
+    <string name="batt_temp">তাপমাত্রা</string>
+    <string name="batt_voltage">ভোল্টেজ</string>
+    <string name="batt_tech">প্রযুক্তি</string>
+    <string name="batt_unknown">অজানা</string>
+    <string name="batt_status_charging">চার্জ হচ্ছে</string>
+    <string name="batt_status_discharging">চার্জ কমছে</string>
+    <string name="batt_status_full">পূর্ণ</string>
+    <string name="batt_status_not_charging">চার্জ হচ্ছে না</string>
+    <string name="batt_health_good">ভালো</string>
+    <string name="batt_health_overheat">অতিরিক্ত গরম</string>
+    <string name="batt_health_dead">নষ্ট</string>
+    <string name="batt_health_over_voltage">ওভার ভোল্টেজ</string>
+    <string name="batt_health_cold">ঠান্ডা</string>
+    <string name="batt_health_failure">ত্রুটি</string>
+    <string name="storage_largest">সবচেয়ে বড় অ্যাপ</string>
+    <string name="storage_clear_cache">এই অ্যাপের ক্যাশ মুছুন</string>
+    <string name="storage_system">সিস্টেম স্টোরেজ সেটিংস</string>
+    <string name="storage_row_used">ব্যবহৃত</string>
+    <string name="storage_row_free">খালি</string>
+    <string name="storage_row_total">মোট</string>
+    <string name="storage_cache_cleared">%1$s মোছা হয়েছে</string>
+    <string name="speed_unit">Mbps (ডাউনলোড)</string>
+    <string name="speed_idle">ডাউনলোড স্পিড মাপতে শুরু চাপুন</string>
+    <string name="speed_start">শুরু</string>
+    <string name="speed_stop">থামান</string>
+    <string name="speed_running">পরীক্ষা চলছে… (ডেটা খরচ হবে)</string>
+    <string name="speed_response">রেসপন্স টাইম: %1$d ms</string>
+    <string name="speed_done">পরীক্ষা শেষ</string>
+    <string name="speed_error">টেস্ট সার্ভারে পৌঁছানো যায়নি। ইন্টারনেট সংযোগ দেখুন।</string>
+</resources>

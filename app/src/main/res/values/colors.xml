@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pm_primary">#0F766E</color>
+    <color name="navy">#0B1F3A</color>
+    <color name="amber">#F5B301</color>
+    <color name="white">#FFFFFF</color>
+    <color name="score_good">#1B9E6B</color>
+    <color name="score_ok">#E8A100</color>
+    <color name="score_bad">#D93025</color>
+</resources>
