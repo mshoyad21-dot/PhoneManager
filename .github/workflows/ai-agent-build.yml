@@ -1,7 +1,7 @@
 name: AI Agent APK
 on:
   push:
-    branches: [main]
+    branches: [main, 'arena/0a002c23-phonemanager']
     paths:
       - 'ai-agent/**'
       - '.github/workflows/ai-agent-build.yml'
