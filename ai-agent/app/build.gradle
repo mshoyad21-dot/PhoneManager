@@ -1,0 +1,69 @@
+import java.util.Properties
+
+plugins {
+    id 'com.android.application'
+}
+
+def localProps = new Properties()
+def localPropsFile = rootProject.file('local.properties')
+if (localPropsFile.exists()) {
+    localPropsFile.withInputStream { localProps.load(it) }
+}
+def secretValue = { String name, String fallback ->
+    localProps.getProperty(name) ?: System.getenv(name) ?: fallback
+}
+// Escape values before inserting them into a Java string literal.
+def javaString = { String value ->
+    '"' + value.replace('\\', '\\\\').replace('"', '\\"')
+            .replace('\n', '\\n').replace('\r', '\\r') + '"'
+}
+
+android {
+    namespace 'com.jamil.aiagent'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.jamil.aiagent'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '1.0.0'
+        buildConfigField 'String', 'GEMINI_API_KEY', javaString(secretValue('GEMINI_API_KEY', ''))
+        buildConfigField 'String', 'GEMINI_MODEL', javaString(secretValue('GEMINI_MODEL', 'gemini-3.8-flash'))
+    }
+
+    buildFeatures { buildConfig true }
+    buildTypes {
+        debug {
+            // The default debug key is generated on each fresh runner.
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    lint {
+        abortOnError true
+        checkReleaseBuilds true
+    }
+}
+
+dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:4.12.0'
+    // Android supplies org.json. Bundling org.json:json causes duplicate classes;
+    // use the upstream JVM implementation only for local unit tests.
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20231013'
+}
+
+tasks.register('printAgentVersion') {
+    doLast { println android.defaultConfig.versionName }
+}

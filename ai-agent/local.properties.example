@@ -1,0 +1,4 @@
+# Copy to local.properties (ignored by Git), and add a key.
+# NEVER commit a real key. Android Studio also adds sdk.dir here.
+GEMINI_API_KEY=
+GEMINI_MODEL=gemini-3.8-flash
