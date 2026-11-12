@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+ <TextView android:id="@+id/bubble" android:layout_width="56dp" android:layout_height="56dp" android:background="#3059C9" android:gravity="center" android:text="এআই" android:textColor="#FFFFFF" android:textSize="17sp" android:contentDescription="এজেন্ট প্যানেল খুলুন" />
+ <LinearLayout android:id="@+id/panel" android:layout_width="300dp" android:layout_height="wrap_content" android:visibility="gone" android:orientation="vertical" android:background="#FFFFFF" android:padding="12dp" android:elevation="8dp">
+  <EditText android:id="@+id/goal" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="আপনার নির্দেশ লিখুন..." android:inputType="textMultiLine" android:maxLines="4" />
+  <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="8dp" android:text="নির্দেশের অপেক্ষায়" android:textColor="#202020" />
+  <Button android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="শুরু করো" />
+  <Button android:id="@+id/cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="বন্ধ করো" />
+ </LinearLayout>
+</LinearLayout>

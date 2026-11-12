@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="AI Agent" android:textSize="28sp" android:textStyle="bold" />
+  <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="12dp" android:text="সেটিংসে গিয়ে ‘AI Agent’ খুঁজে অ্যাক্সেসিবিলিটি চালু করুন। আপনার নির্দেশ ও স্ক্রিনের লেখা Gemini-তে পাঠানো হবে।" />
+  <TextView android:id="@+id/readiness" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" />
+  <Button android:id="@+id/overlay_permission" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ওভারলে পারমিশন দিন" />
+  <Button android:id="@+id/accessibility_permission" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="অ্যাক্সেসিবিলিটি চালু করুন" />
+  <Button android:id="@+id/notification_permission" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="নোটিফিকেশন পারমিশন দিন" />
+  <Button android:id="@+id/start_overlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ভাসমান বাটন চালু করুন" />
+  <Button android:id="@+id/stop_overlay" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ভাসমান বাটন বন্ধ করুন" />
+ </LinearLayout>
+</ScrollView>

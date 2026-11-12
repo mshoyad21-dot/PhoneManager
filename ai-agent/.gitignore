@@ -1,0 +1,15 @@
+.gradle/
+local.properties
+.idea/
+*.iml
+.DS_Store
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+# Never commit signing material or a copied API key.
+*.jks
+*.keystore
+.env
+.env.*

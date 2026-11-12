@@ -1,0 +1,47 @@
+name: AI Agent APK
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ai-agent/**'
+      - '.github/workflows/ai-agent-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ai-agent
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - name: তৈরি করুন local.properties
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo 'GEMINI_API_KEY secret is missing' >&2
+            exit 1
+          fi
+          python3 - <<'PY'
+          import os
+          value = os.environ['GEMINI_API_KEY']
+          # Java Properties escaping; never print the secret.
+          value = value.replace('\\', '\\\\').replace('\n', '\\n').replace('\r', '\\r')
+          with open('local.properties', 'w', encoding='utf-8') as f:
+              f.write('GEMINI_API_KEY=' + value + '\n')
+          PY
+      - name: পরীক্ষা ও APK তৈরি
+        run: chmod +x gradlew && ./gradlew testDebugUnitTest assembleDebug --no-daemon
+      - name: APK আপলোড
+        uses: actions/upload-artifact@v4
+        with:
+          name: AIAgent-debug
+          path: ai-agent/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 7
